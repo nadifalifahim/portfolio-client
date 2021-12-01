@@ -1,0 +1,67 @@
+.topbanner-container {
+  height: 100vh;
+  background-color: #011832;
+  color: white;
+  position: relative;
+}
+
+.topbanner-title-container {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 90vh;
+}
+
+.topbanner-heading {
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.topbanner-subheading {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  color: rgb(255, 239, 206);
+}
+
+.topbanner-buttons button {
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  padding: 15px 30px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  margin-top: 50px;
+  border-radius: 60px;
+  transition: 0.5s ease all;
+}
+
+.topbanner-buttons button:hover {
+  background-color: white;
+  padding: 15px 40px;
+  color: #011832;
+}
+
+.topbanner-social-icons {
+  position: absolute;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbanner-social-icons i {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  transition: 0.5s ease all;
+  color: rgb(139, 139, 139);
+}
+
+.topbanner-social-icons i:hover {
+  transform: scale(1.2);
+  color: white;
+}
