@@ -51,6 +51,9 @@ const TopBanner = () => {
                 <button>View Resume</button>
               </Fade>
             </a>
+            <div className="topbanner-next-section">
+              <i className="fas fa-chevron-down"></i>
+            </div>
           </div>
         </div>
       </Fade>
