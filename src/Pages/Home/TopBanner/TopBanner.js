@@ -52,7 +52,7 @@ const TopBanner = () => {
               </Fade>
             </a>
             <div className="topbanner-next-section">
-              <i className="fas fa-chevron-down"></i>
+              <i className="fab fa-linkedin"></i>
             </div>
           </div>
         </div>
