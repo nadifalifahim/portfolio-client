@@ -5,11 +5,14 @@ import BarLoader from "react-spinners/BarLoader";
 // import BounceLoader from "react-spinners/BounceLoader";
 // import PropagateLoader from "react-spinners/PropagateLoader";
 import "./Loader.css";
+import Rotate from "react-reveal/Rotate";
 
 const LoadingSpinner = () => {
   return (
     <div className="loader">
-      <h1>n</h1>
+      <Rotate top left>
+        <h1>n</h1>
+      </Rotate>
       <BarLoader color={"#fff"} loading={true} size={450} />
       {/* <PuffLoader color={"#fff"} loading={true} size={450} /> */}
       {/* <ClipLoader color={"#fff"} loading={true} size={50} /> */}

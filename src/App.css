@@ -1,3 +1,9 @@
+:root {
+  --color-darkblue: #011832;
+  --color-offwhite: rgb(255, 239, 206);
+  font-size: 16px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
