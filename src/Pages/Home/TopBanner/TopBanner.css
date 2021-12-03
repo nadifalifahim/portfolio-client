@@ -73,9 +73,5 @@
   transform: translate(0, -50%);
   font-size: 2rem;
   transition: 0.3s all ease;
-  opacity: 50%;
-}
-
-.topbanner-next-section:hover {
-  animation: none;
+  color: rgb(139, 139, 139);
 }
