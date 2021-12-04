@@ -1,5 +1,5 @@
 .topbanner-container {
-  height: 100vh;
+  height: 90vh;
   background-color: var(--color-darkblue);
   color: white;
   position: relative;
@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .topbanner-heading {
@@ -48,8 +48,9 @@
 }
 
 .topbanner-social-icons {
-  position: absolute;
+  position: fixed;
   right: 50px;
+  transform: translate(0, -10%);
   display: flex;
   flex-direction: column;
 }
@@ -58,7 +59,7 @@
   font-size: 1.6rem;
   margin-bottom: 30px;
   transition: 0.5s ease all;
-  color: rgb(139, 139, 139);
+  color: var(--color-muted);
 }
 
 .topbanner-social-icons i:hover {
@@ -73,5 +74,5 @@
   transform: translate(0, -50%);
   font-size: 2rem;
   transition: 0.3s all ease;
-  color: rgb(139, 139, 139);
+  color: var(--color-muted);
 }

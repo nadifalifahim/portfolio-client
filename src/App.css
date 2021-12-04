@@ -1,6 +1,8 @@
 :root {
   --color-darkblue: #011832;
+  --color-darkblue-secondary: #001845;
   --color-offwhite: rgb(255, 239, 206);
+  --color-muted: rgb(139, 139, 139);
   font-size: 16px;
 }
 
@@ -9,6 +11,30 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+}
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-darkblue);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 20px;
+  margin: 5px;
+  border: 6px solid transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(117, 117, 117);
 }
 
 a {

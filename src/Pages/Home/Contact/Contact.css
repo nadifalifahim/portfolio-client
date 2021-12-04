@@ -1,0 +1,39 @@
+.contact-container {
+  background-color: var(--color-darkblue);
+  height: 90vh;
+  color: white;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container form input {
+  width: 100%;
+}
+
+.contact-items-container {
+  display: flex;
+}
+
+.contact-left-items {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: 2px solid rgba(255, 255, 255, 0.397);
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px 90px 30px 40px;
+}
+
+.contact-left-items i {
+  text-align: center;
+  min-width: 50px;
+  font-size: 2rem;
+  margin-right: 30px;
+}
+
+.contact-left-items h2 {
+  margin-bottom: 5px;
+}

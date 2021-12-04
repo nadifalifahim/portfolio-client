@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../Shared/Navbar/Navbar";
 import "./TopBanner.css";
 import Typical from "react-typical";
 import Fade from "react-reveal/Fade";
@@ -7,7 +6,6 @@ import Fade from "react-reveal/Fade";
 const TopBanner = () => {
   return (
     <div className="topbanner-container">
-      <Navbar></Navbar>
       <Fade>
         <div className="topbanner-title-container">
           <h1 className="topbanner-heading">Hi, I'm Nadif </h1>
@@ -51,9 +49,9 @@ const TopBanner = () => {
                 <button>View Resume</button>
               </Fade>
             </a>
-            <div className="topbanner-next-section">
+            {/* <div className="topbanner-next-section">
               <i className="fas fa-chevron-down"></i>
-            </div>
+            </div> */}
           </div>
         </div>
       </Fade>

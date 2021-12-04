@@ -1,0 +1,9 @@
+.pagenotfound-container {
+  height: 90vh;
+  background-color: var(--color-darkblue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

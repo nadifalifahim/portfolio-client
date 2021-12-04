@@ -1,12 +1,21 @@
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
+import Navbar from "../../Shared/Navbar/Navbar";
 import Contact from "../Contact/Contact";
 import TopBanner from "../TopBanner/TopBanner";
+import { Routes, Route } from "react-router-dom";
+import PageNotFound from "../../PageNotFound/PageNotFound";
 
 const Home = () => {
   return (
     <div>
-      <TopBanner></TopBanner>
-      <Contact></Contact>
+      <Routes>
+        <Route exact path="/" element={<TopBanner />} />
+        <Route exact path="/home" element={<TopBanner />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route path="/*" element={<PageNotFound />} />
+      </Routes>
+      <Navbar></Navbar>
     </div>
   );
 };
