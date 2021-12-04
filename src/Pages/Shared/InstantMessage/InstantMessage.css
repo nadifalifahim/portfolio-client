@@ -22,6 +22,10 @@
   font-size: 1.6rem;
 }
 
+.instantMessage-container button {
+  background-color: transparent;
+}
+
 .instantMessage-message {
   position: absolute;
   bottom: 130px;
