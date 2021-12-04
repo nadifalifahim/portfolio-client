@@ -1,0 +1,38 @@
+.instantMessage-circle {
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  width: 70px;
+  height: 70px;
+  background-color: var(--color-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 14;
+  transition: 0.5s ease all;
+}
+
+.instantMessage-circle:hover {
+  transform: scale(1.07);
+}
+
+.instantMessage-container i {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.instantMessage-message {
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
+  width: 250px;
+  background-color: var(--color-purple);
+}
+
+.instantMessage-message input,
+.instantMessage-message textarea {
+  min-width: 90%;
+  margin: 5px;
+  background-color: transparent;
+}

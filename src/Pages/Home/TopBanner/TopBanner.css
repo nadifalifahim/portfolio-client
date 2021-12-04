@@ -23,9 +23,13 @@
 .topbanner-subheading {
   font-weight: 700;
   font-size: 4rem;
-  margin: 20px 0;
   letter-spacing: 2px;
-  color: var(--color-offwhite);
+  margin: 20px auto;
+  background-color: var(--color-purple);
+  color: white;
+  padding: 10px 40px;
+  max-width: fit-content;
+  border-radius: 10px;
 }
 
 .topbanner-buttons button {
@@ -35,16 +39,16 @@
   padding: 15px 30px;
   font-size: 1rem;
   letter-spacing: 1px;
-  border: 2px solid white;
+  border: 2px solid var(--color-purple);
   margin-top: 50px;
   border-radius: 60px;
   transition: 0.5s ease all;
 }
 
 .topbanner-buttons button:hover {
-  background-color: white;
+  background-color: var(--color-purple);
   padding: 15px 40px;
-  color: #011832;
+  color: white;
 }
 
 .topbanner-social-icons {

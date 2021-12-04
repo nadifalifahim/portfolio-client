@@ -2,10 +2,12 @@ import React from "react";
 import "./Navbar.css";
 import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
+import InstantMessage from "../InstantMessage/InstantMessage";
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
+      <InstantMessage></InstantMessage>
       <nav className="navbar">
         <Fade>
           <ul>

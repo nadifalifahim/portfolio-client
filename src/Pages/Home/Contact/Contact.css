@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  border: 2px solid rgba(255, 255, 255, 0.397);
+  border: 2px solid var(--color-purple);
   border-radius: 10px;
   margin: 20px 0;
   padding: 30px 90px 30px 40px;
@@ -36,4 +36,35 @@
 
 .contact-left-items h2 {
   margin-bottom: 5px;
+}
+
+.contact-form-container form input,
+.contact-form-container form textarea {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid var(--color-purple);
+  padding: 20px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.nameemail-container {
+  display: flex;
+}
+
+.contact-form-container label,
+.nameemail-container label {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.contact-form-container form button {
+  background-color: var(--color-purple);
+  outline: none;
+  border: 2px solid var(--color-purple);
+  padding: 15px 60px;
+  color: white;
+  width: fit-content;
+  border-radius: 50px;
+  font-size: 1.1rem;
 }
