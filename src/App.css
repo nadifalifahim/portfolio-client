@@ -1,10 +1,10 @@
 :root {
   --color-darkblue: #011832;
-  --color-darkblue-secondary: #001845;
+  --color-darkblue-secondary: #0a2a4d;
   --color-offwhite: rgb(255, 239, 206);
   --color-muted: rgb(139, 139, 139);
   --color-purple: #5c3cc5;
-  --color-purple-dark: #4c31a5;
+  --color-purple-dark: #5439af;
   font-size: 16px;
 }
 
