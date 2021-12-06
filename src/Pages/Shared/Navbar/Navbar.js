@@ -16,7 +16,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "nav-link-active" : "nav-link"
                 }
-                to="/home"
+                to="/"
               >
                 <i className="fas fa-home"></i>
                 <p>Home</p>

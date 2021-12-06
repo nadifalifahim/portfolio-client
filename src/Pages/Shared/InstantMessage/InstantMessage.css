@@ -22,10 +22,6 @@
   font-size: 1.6rem;
 }
 
-.instantMessage-container button {
-  background-color: transparent;
-}
-
 .instantMessage-message {
   position: absolute;
   bottom: 130px;
@@ -40,6 +36,12 @@
   padding: 15px 0;
 }
 
+.instantMessage-container button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .instantMessage-message input,
 .instantMessage-message textarea {
   min-width: 90%;
@@ -52,7 +54,54 @@
   padding: 15px;
 }
 
+.instantMessage-message input:focus,
+.instantMessage-message textarea:focus {
+  box-shadow: 0 0 5px 1px var(--color-purple);
+}
+
 .instantMessage-message input::placeholder,
 .instantMessage-message textarea::placeholder {
   color: var(--color-muted);
+}
+
+.instantMessage-sendbutton {
+  border: none;
+  color: white;
+  background-color: var(--color-purple) !important;
+  padding: 10px 20px;
+  margin: 10px 0 5px;
+  font-size: 1rem;
+  min-width: 90%;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.instantMessage-sendbutton i {
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.instantMessage-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 90%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 5px 0 15px;
+}
+
+.instantMessage-heading button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.instantMessage-heading i {
+  transition: 0.2s ease all;
+  padding: 0 5px;
+}
+
+.instantMessage-heading i:hover {
+  color: red;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./TopBanner.css";
 import Typical from "react-typical";
 import Fade from "react-reveal/Fade";
+import SocialIcons from "../../Shared/SocialIcons/SocialIcons";
 
 const TopBanner = () => {
   return (
@@ -18,29 +19,7 @@ const TopBanner = () => {
             />{" "}
             &#62;
           </h1>
-          <div className="topbanner-social-icons">
-            <a
-              href="https://www.facebook.com/nadifalifahim"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://www.github.com/nadifalifahim"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/nadifalifahim"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
+          <SocialIcons />
           <div className="topbanner-buttons">
             <a
               href="https://drive.google.com/file/d/1tWwOXsiA0JOEeGumT54gMdqT04je-Td6/view?usp=sharing"

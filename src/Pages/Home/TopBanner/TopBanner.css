@@ -43,31 +43,12 @@
   margin-top: 50px;
   border-radius: 60px;
   transition: 0.5s ease all;
+  box-shadow: 0 0 10px 1px var(--color-purple);
 }
 
 .topbanner-buttons button:hover {
   background-color: var(--color-purple);
   padding: 15px 40px;
-  color: white;
-}
-
-.topbanner-social-icons {
-  position: fixed;
-  right: 50px;
-  transform: translate(0, -10%);
-  display: flex;
-  flex-direction: column;
-}
-
-.topbanner-social-icons i {
-  font-size: 1.6rem;
-  margin-bottom: 30px;
-  transition: 0.5s ease all;
-  color: var(--color-muted);
-}
-
-.topbanner-social-icons i:hover {
-  transform: scale(1.2);
   color: white;
 }
 

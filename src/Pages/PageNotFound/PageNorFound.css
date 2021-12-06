@@ -15,7 +15,7 @@
   padding: 5px 15px;
 }
 .pagenotfound-container h3 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   margin-bottom: 50px;
 }
 
@@ -26,8 +26,9 @@
   border: 2px solid var(--color-purple);
   outline: none;
   border-radius: 30px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: 0.3s ease all;
+  box-shadow: 0 0 10px 1px var(--color-purple);
 }
 
 .pagenotfound-container button:hover {

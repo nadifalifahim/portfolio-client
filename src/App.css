@@ -44,3 +44,7 @@ a {
   background: rgb(117, 117, 117);
 }
 
+/* Buttons */
+button {
+  cursor: pointer;
+}
