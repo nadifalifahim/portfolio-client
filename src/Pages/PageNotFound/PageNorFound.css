@@ -35,3 +35,8 @@
   padding: 15px 40px;
   background-color: var(--color-purple);
 }
+
+.pagenotfound-image-container {
+  height: 360px;
+  overflow: hidden;
+}

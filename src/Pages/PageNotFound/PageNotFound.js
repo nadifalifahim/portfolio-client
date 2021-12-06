@@ -7,7 +7,12 @@ const PageNotFound = () => {
   return (
     <div className="pagenotfound-container">
       <Fade>
-        <img src="/Images/PageNotFound/PageNotFound.png" alt="Page Not Found" />
+        <div className="pagenotfound-image-container">
+          <img
+            src="/Images/PageNotFound/PageNotFound.png"
+            alt="Page Not Found"
+          />
+        </div>
         <h2> Error 404 </h2>
         <h3> Page Not Found </h3>
         <Link to="/">
