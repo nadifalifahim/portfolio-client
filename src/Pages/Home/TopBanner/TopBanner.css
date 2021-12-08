@@ -61,3 +61,11 @@
   transition: 0.3s all ease;
   color: var(--color-muted);
 }
+
+@media (max-width: 450px) {
+  .topbanner-subheading {
+    font-size: 2rem;
+    margin: 80px 10px 50px;
+    padding: 10px 20px;
+  }
+}

@@ -82,6 +82,14 @@
   margin: 30px 0;
 }
 
+@media (max-width: 450px) {
+  .contact-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px 0;
+  }
+}
+
 /* .contact-left-items-container {
   margin: 0 50px;
 }

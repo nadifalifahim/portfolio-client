@@ -15,6 +15,7 @@
 
 .instantMessage-circle:hover {
   transform: scale(1.07);
+  box-shadow: 0 0 10px 1px var(--color-purple);
 }
 
 .instantMessage-container i {
@@ -104,4 +105,20 @@
 
 .instantMessage-heading i:hover {
   color: red;
+}
+
+@media (max-width: 450px) {
+  .instantMessage-circle {
+    bottom: 90px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .instantMessage-message {
+    bottom: 190%;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 350px;
+  }
 }

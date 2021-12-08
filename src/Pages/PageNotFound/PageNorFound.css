@@ -40,3 +40,12 @@
   height: 360px;
   overflow: hidden;
 }
+
+@media (max-width: 450px) {
+  .pagenotfound-image-container img {
+    max-width: 90%;
+    margin: 0 auto;
+    height: auto;
+    overflow: auto;
+  }
+}
