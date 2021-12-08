@@ -6,6 +6,19 @@ const InstantMessage = () => {
   const [instantMessageOpen, setInstantMessageOpen] = useState(false);
   const instantForm = useRef();
 
+  const handleInstantMessageOpen = () => {
+    setInstantMessageOpen(!instantMessageOpen);
+    if (!instantMessageOpen) {
+      document
+        .querySelector(".instantMessage-circle")
+        .classList.add("instantMessageOpened");
+    } else {
+      document
+        .querySelector(".instantMessage-circle")
+        .classList.remove("instantMessageOpened");
+    }
+  };
+
   const handleSendMessage = (e) => {
     e.preventDefault();
     emailjs
@@ -34,9 +47,7 @@ const InstantMessage = () => {
     <div className="instantMessage-container">
       <button
         className="instantMessage-open"
-        onClick={() => {
-          setInstantMessageOpen(!instantMessageOpen);
-        }}
+        onClick={handleInstantMessageOpen}
       >
         <div className="instantMessage-circle">
           <i className="far fa-comment-dots"></i>

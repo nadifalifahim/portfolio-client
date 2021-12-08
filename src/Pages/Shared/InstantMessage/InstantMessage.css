@@ -14,8 +14,17 @@
 }
 
 .instantMessage-circle:hover {
-  transform: scale(1.07);
+  transform: scale(1.01);
   box-shadow: 0 0 10px 1px var(--color-purple);
+}
+
+.instantMessageOpened {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 1px var(--color-purple);
+}
+
+.instantMessageOpened:hover {
+  transform: scale(1.07);
 }
 
 .instantMessage-container i {
@@ -62,7 +71,9 @@
 
 .instantMessage-message input::placeholder,
 .instantMessage-message textarea::placeholder {
-  color: var(--color-muted);
+  color: var(--color-placeholder-text);
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .instantMessage-sendbutton {

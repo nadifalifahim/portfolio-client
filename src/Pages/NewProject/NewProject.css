@@ -1,0 +1,91 @@
+.new-project-container {
+  background-color: var(--color-darkblue);
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.new-project-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-project-container form input {
+  width: 100%;
+}
+
+.new-project-heading {
+  font-size: 2.5rem;
+  background-color: var(--color-purple);
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+.new-project-form-container form input,
+.new-project-form-container form textarea {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid var(--color-purple);
+  padding: 12px 15px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  transition: 0.2s ease all;
+}
+
+.new-project-form-container form input:focus,
+.new-project-form-container form textarea:focus {
+  box-shadow: 0 0 10px 1px var(--color-purple);
+}
+
+.new-project-form-content {
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+.new-project-form-content label {
+  margin: 20px 5px 8px;
+}
+
+.new-project-form-content textarea {
+  width: 100%;
+  height: 120px;
+}
+
+.project-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  align-items: center;
+}
+
+.new-project-form-content label {
+  display: block;
+}
+
+.new-project-form-container form button {
+  background-color: var(--color-purple);
+  outline: none;
+  border: 2px solid var(--color-purple);
+  padding: 15px 60px;
+  color: white;
+  width: fit-content;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin: 30px 0;
+}
+
+@media (max-width: 450px) {
+  .new-project-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px 0;
+  }
+}

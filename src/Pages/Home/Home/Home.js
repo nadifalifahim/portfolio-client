@@ -5,6 +5,7 @@ import TopBanner from "../TopBanner/TopBanner";
 import { Routes, Route } from "react-router-dom";
 import PageNotFound from "../../PageNotFound/PageNotFound";
 import Projects from "../Projects/Projects";
+import NewProject from "../../NewProject/NewProject";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Route exact path="/home" element={<TopBanner />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/new-project" element={<NewProject />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Navbar></Navbar>

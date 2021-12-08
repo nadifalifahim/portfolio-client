@@ -2,8 +2,11 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home/Home";
 import LoadingSpinner from "./Pages/Shared/Loader/LoadingSpinner";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  AOS.init();
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
