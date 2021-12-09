@@ -23,3 +23,49 @@
 .project-details-container img {
   height: 100%;
 }
+
+.technologies-container {
+  display: flex;
+}
+
+.technologies-container p {
+  background-color: var(--color-purple);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 5px;
+  font-weight: 600;
+}
+
+.projects-details-buttons-container {
+  display: flex;
+
+  margin: 20px 0;
+}
+
+.projects-details-buttons-container button {
+  width: 180px;
+  padding: 10px 0;
+  border: 2px solid var(--color-purple);
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 1px var(--color-purple);
+  transition: 0.3s all ease;
+  margin-right: 15px;
+}
+
+.projects-details-buttons-container button:hover {
+  background: var(--color-purple);
+}
+
+.project-details-content {
+  display: flex;
+  width: 80%;
+}
+
+.project-details-header {
+  background-color: var(--color-purple);
+  padding: 5px 20px;
+}

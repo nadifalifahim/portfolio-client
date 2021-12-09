@@ -49,6 +49,17 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive ? "nav-link-active" : "nav-link"
                 }
+                to="/blog"
+              >
+                <i className="fas fa-feather-alt"></i>
+                <p>Blog</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link-active" : "nav-link"
+                }
                 to="/contact"
               >
                 <i className="fas fa-envelope"></i>
