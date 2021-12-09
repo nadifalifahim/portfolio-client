@@ -22,7 +22,7 @@ const NewProject = () => {
       projectLink,
     };
 
-    fetch("http://localhost:5000/projects", {
+    fetch("https://nadifalifahim.herokuapp.com/projects", {
       method: "POST",
       headers: {
         "content-type": "application/json",

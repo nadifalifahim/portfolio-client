@@ -9,7 +9,7 @@ const Projects = () => {
 
   useEffect(() => {
     setRunLoader(true);
-    fetch("http://localhost:5000/projects")
+    fetch("https://nadifalifahim.herokuapp.com/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjectDetails(data);
