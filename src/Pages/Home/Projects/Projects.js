@@ -13,13 +13,12 @@ const Projects = () => {
       .then((res) => res.json())
       .then((data) => {
         setProjectDetails(data);
-        console.log(projectDetails);
         setRunLoader(false);
       })
       .catch((err) => {
         console.log(err);
       });
-  }, [projectDetails]);
+  }, []);
 
   return (
     <div className="projects-container">
