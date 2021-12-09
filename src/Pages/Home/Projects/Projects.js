@@ -19,7 +19,7 @@ const Projects = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+  }, [projectDetails]);
 
   return (
     <div className="projects-container">
