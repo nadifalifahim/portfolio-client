@@ -1,0 +1,25 @@
+.project-details-container {
+  height: 90vh;
+  background-color: var(--color-darkblue);
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.project-details-image-container {
+  width: 550px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-details-container img {
+  height: 100%;
+}

@@ -7,6 +7,7 @@ import PageNotFound from "../../PageNotFound/PageNotFound";
 import Projects from "../Projects/Projects";
 import NewProject from "../../NewProject/NewProject";
 import About from "../../About/About";
+import ProjectDetails from "../../ProjectDetails/ProjectDetails";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Route exact path="/" element={<TopBanner />} />
         <Route exact path="/home" element={<TopBanner />} />
         <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/projects/:projectID" element={<ProjectDetails />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/new-project" element={<NewProject />} />
