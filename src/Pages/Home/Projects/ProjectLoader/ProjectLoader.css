@@ -1,0 +1,25 @@
+.project-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-loader p {
+  margin: 15px 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  animation: projectLoading 1s ease infinite;
+}
+
+@keyframes projectLoading {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

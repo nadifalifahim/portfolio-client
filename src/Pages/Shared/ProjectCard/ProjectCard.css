@@ -9,11 +9,12 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
 .projects-image-container img {
-  width: 100%;
+  height: 100%;
   transition: 0.7s all ease;
 }
 

@@ -16,6 +16,14 @@
   padding: 5px 30px;
 }
 
+.projects-content-container {
+  display: flex;
+  width: 100%;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+
 .projects-content {
   display: flex;
   width: 90%;
