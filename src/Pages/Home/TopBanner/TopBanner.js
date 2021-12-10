@@ -9,11 +9,11 @@ const TopBanner = () => {
   const [isPhoneView, setIsPhoneView] = useState(false);
 
   useEffect(() => {
-    if (document.innerWidth < 700) {
-      setIsPhoneView(true);
-    } else {
-      setIsPhoneView(false);
-    }
+    // if (document.innerWidth < 700) {
+    //   setIsPhoneView(true);
+    // } else {
+    //   setIsPhoneView(false);
+    // }
   }, []);
 
   return (
