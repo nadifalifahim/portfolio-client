@@ -3,19 +3,19 @@ import "./TopBanner.css";
 import Typical from "react-typical";
 import Fade from "react-reveal/Fade";
 import SocialIcons from "../../Shared/SocialIcons/SocialIcons";
-import { useEffect, useState } from "react/cjs/react.development";
+// import { useEffect, useState } from "react/cjs/react.development";
 
 const TopBanner = () => {
-  const [isPhoneView, setIsPhoneView] = useState(false);
+  // const [isPhoneView, setIsPhoneView] = useState(false);
 
-  useEffect(() => {
-    setIsPhoneView(false);
-    // if (document.innerWidth < 700) {
-    //   setIsPhoneView(true);
-    // } else {
-    //   setIsPhoneView(false);
-    // }
-  }, []);
+  // useEffect(() => {
+  //   setIsPhoneView(false);
+  //   // if (document.innerWidth < 700) {
+  //   //   setIsPhoneView(true);
+  //   // } else {
+  //   //   setIsPhoneView(false);
+  //   // }
+  // }, []);
 
   return (
     <div className="topbanner-container">
