@@ -118,7 +118,7 @@
   color: red;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .instantMessage-circle {
     bottom: 90px;
     right: 15px;
@@ -131,5 +131,13 @@
     right: 50%;
     transform: translate(50%, 0);
     width: 350px;
+  }
+  /* .instantMessage-sendbutton i {
+    font-size: 0.7rem;
+    margin-left: 5px;
+  } */
+  .instantMessage-container i {
+    color: white;
+    font-size: 1.3rem;
   }
 }

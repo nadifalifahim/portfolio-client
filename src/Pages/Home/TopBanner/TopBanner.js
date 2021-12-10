@@ -9,8 +9,10 @@ const TopBanner = () => {
   const [isPhoneView, setIsPhoneView] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth < 450) {
+    if (window.innerWidth < 700) {
       setIsPhoneView(true);
+    } else {
+      setIsPhoneView(false);
     }
   }, []);
 
@@ -20,7 +22,7 @@ const TopBanner = () => {
         <div className="topbanner-title-container">
           <h1 className="topbanner-heading">Hi, I'm Nadif </h1>
           <div className="topbanner-subheading-container">
-            {isPhoneView ? (
+            {isPhoneView && (
               <h1 className="topbanner-subheading-phone">
                 &#60;{" "}
                 <Typical
@@ -30,7 +32,8 @@ const TopBanner = () => {
                 />{" "}
                 &#62;
               </h1>
-            ) : (
+            )}
+            {!isPhoneView && (
               <h1 className="topbanner-subheading">
                 &#60;{" "}
                 <Typical

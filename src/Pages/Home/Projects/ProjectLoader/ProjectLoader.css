@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .project-loader p {
     margin: 15px 0;
     font-size: 2rem;

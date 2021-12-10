@@ -86,7 +86,7 @@
   margin: 30px 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .contact-container {
     overflow-y: scroll;
     display: flex;

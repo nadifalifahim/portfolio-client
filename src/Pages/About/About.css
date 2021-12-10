@@ -95,7 +95,7 @@
   text-align: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .about-container {
     justify-content: flex-start;
     flex-direction: column;
