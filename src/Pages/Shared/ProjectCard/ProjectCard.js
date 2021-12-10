@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./ProjectCard.css";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
 
 const ProjectCard = ({ projectDetails }) => {
   useEffect(() => {
@@ -10,7 +9,7 @@ const ProjectCard = ({ projectDetails }) => {
   return (
     <Fade>
       <div className="projects-card-container">
-        <Link to={`/projects/${projectDetails._id}`}>
+        <a href={projectDetails.githubLink} target="_blank" rel="noreferrer">
           <Fade>
             <div className="projects-image-container">
               <img
@@ -20,15 +19,15 @@ const ProjectCard = ({ projectDetails }) => {
               />
             </div>
           </Fade>
-        </Link>
+        </a>
 
         <div className="projects-details-container">
-          <Link to={`/projects/${projectDetails._id}`}>
+          <a href={projectDetails.githubLink} target="_blank" rel="noreferrer">
             <h1>{projectDetails.projectName}</h1>
-          </Link>
-          <Link to={`/projects/${projectDetails._id}`}>
+          </a>
+          <a href={projectDetails.githubLink} target="_blank" rel="noreferrer">
             <p>{projectDetails.projectDescription}</p>
-          </Link>
+          </a>
           <div className="projects-details-buttons">
             <a
               href={projectDetails.websiteLink}
@@ -39,11 +38,15 @@ const ProjectCard = ({ projectDetails }) => {
                 <i className="fas fa-link"></i> Visit Site
               </button>
             </a>
-            <Link to={`/projects/${projectDetails._id}`}>
+            <a
+              href={projectDetails.githubLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="view-details-button">
-                <i className="fas fa-angle-double-right"></i> View Details
+                <i className="fas fa-code-branch"></i> View Code
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
