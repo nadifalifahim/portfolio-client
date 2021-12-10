@@ -15,7 +15,7 @@ const Blog = () => {
           </Fade>
         </div>
         <h2> Blog </h2>
-        <h3> Coming Soon </h3>
+        <h3> Page Not Found </h3>
         <Link to="/">
           <button>Return to home page</button>
         </Link>
