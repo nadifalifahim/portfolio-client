@@ -9,6 +9,7 @@ const TopBanner = () => {
   const [isPhoneView, setIsPhoneView] = useState(false);
 
   useEffect(() => {
+    setIsPhoneView(false);
     // if (document.innerWidth < 700) {
     //   setIsPhoneView(true);
     // } else {
