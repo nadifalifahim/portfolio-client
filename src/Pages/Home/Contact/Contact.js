@@ -62,19 +62,18 @@ const Contact = () => {
               <form ref={form} onSubmit={handleContactSubmit}>
                 <div className="nameemail-container">
                   <div className="contact-form-content">
-                    <label>Name</label> <br />
+                    <label>Name</label>
                     <input type="text" name="name" />
                   </div>
                   <div className="nameemail-space"></div>
                   <div className="contact-form-content">
-                    <label>Email *</label> <br />
+                    <label>Email *</label>
                     <input type="text" name="email" required />
                   </div>
                 </div>
-                <br />
-                <br />
+                <div className="message-space"></div>
                 <div className="contact-form-content">
-                  <label>Message</label> <br />
+                  <label>Message</label>
                   <textarea name="message" className="form-text-area" />
                 </div>
                 <button type="submit" className="form-submit-button">

@@ -23,3 +23,11 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 450px) {
+  .project-loader p {
+    margin: 15px 0;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
