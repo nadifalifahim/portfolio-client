@@ -23,7 +23,7 @@ const TopBanner = () => {
         <div className="topbanner-title-container">
           <h1 className="topbanner-heading">Hi, I'm Nadif </h1>
           <div className="topbanner-subheading-container">
-            {isPhoneView && (
+            {/* {isPhoneView && (
               <h1 className="topbanner-subheading-phone">
                 &#60;{" "}
                 <Typical
@@ -33,18 +33,17 @@ const TopBanner = () => {
                 />{" "}
                 &#62;
               </h1>
-            )}
-            {!isPhoneView && (
-              <h1 className="topbanner-subheading">
-                &#60;{" "}
-                <Typical
-                  steps={["", 2500, "a Front-end Web Developer", 5000]}
-                  loop={1}
-                  wrapper="span"
-                />{" "}
-                &#62;
-              </h1>
-            )}
+            )} */}
+
+            <h1 className="topbanner-subheading">
+              &#60;{" "}
+              <Typical
+                steps={["", 2500, "a Front-end Web Developer", 5000]}
+                loop={1}
+                wrapper="span"
+              />{" "}
+              &#62;
+            </h1>
           </div>
           <SocialIcons />
           <div className="topbanner-buttons">
